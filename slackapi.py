@@ -1,5 +1,3 @@
-
-
 import requests
 import json
 
@@ -13,6 +11,6 @@ data = json.loads(response.text)
 
 if data["ok"]:
     messages = data["messages"]
-    # Do something with the messages
+    print("heres the message", messages)
 else:
-    # Handle error
+    print("its isnt working")
