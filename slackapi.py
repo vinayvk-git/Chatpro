@@ -1,8 +1,10 @@
+
+
 import requests
 import json
 
-SLACK_API_TOKEN = "xoxb-your-api-token-here"
-CHANNEL_ID = "your-channel-id-here"
+SLACK_API_TOKEN = "xoxe.xoxp-1-Mi0yLTE4MjIyNjQ0MTk0NDAtMTc5ODY0MTMwNjAxOS00Nzg5ODQ2NTI5ODMwLTQ3ODE5MTYzMDA4NzEtOTFhMzU1YTVkMzM5YjA1NzRhMGM3Nzk3OTZlMjA0ZDA1NDg0ZDI5OTdlNDJlODZjMTAxMjFlZDU1ZTdkMDU1Ng"
+CHANNEL_ID = "VinayRao_test1"
 
 url = f"https://slack.com/api/conversations.history?token={SLACK_API_TOKEN}&channel={CHANNEL_ID}"
 
